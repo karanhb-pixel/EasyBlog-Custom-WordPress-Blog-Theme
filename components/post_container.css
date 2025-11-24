@@ -1,0 +1,112 @@
+.postContainer_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  background-color: #0053ff59;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.3s ease-in-out;
+}
+.postContainer_container:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  transform: scale(1.02);
+}
+
+.postContainer_container img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.postContainer_container img:hover {
+  transform: scale(1.02);
+}
+
+.postContainer_details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.postContainer_details_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.postContainer_details_text p span {
+  font-weight: 800;
+}
+
+.postContainer_details_text h1 {
+  font-weight: 700;
+}
+.postContainer_details_text p {
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+  .postContainer_details_text h1 {
+    font-size: 2rem;
+  }
+
+  .postContainer_details_text p {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 768px) {
+  .postContainer_details_text h1 {
+    font-size: 1.5rem;
+  }
+  .postContainer_details_text p {
+    font-size: small;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  }
+}
+
+@media (max-width: 580px) {
+  .postContainer_container {
+    gap: 1rem;
+  }
+  .postContainer_details {
+    gap: 1rem;
+  }
+  .postContainer_details_text {
+    gap: 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .postContainer_container {
+    gap: 0.5rem;
+  }
+  .postContainer_details {
+    gap: 0.5rem;
+  }
+  .postContainer_details_text {
+    gap: 0.5rem;
+  }
+  .postContainer_details_text h1 {
+    font-size: 1rem;
+  }
+  .postContainer_details_text p {
+    font-size: small;
+  }
+  .postContainer_details_btn button {
+    padding: 4px 8px;
+  }
+}
