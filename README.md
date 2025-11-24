@@ -90,17 +90,45 @@ It is ideal for developers and clients who need a **fast, SEO-friendly blog + po
 ---
 
 ## 📸 Screenshots
+<table>
+<tr>
+<td align="center" style="padding: 10px;">
+<img src="ScreenShots/homepage.png" alt="Homepage Screenshot" width="100%">
+<strong> Homepage </strong>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 10px;">
+<img src="ScreenShots/blog.png" alt="Blog Screenshot" width="100%">
+<strong> Blog </strong>
+</td>
+<td align="center" style="padding: 10px;">
+<img src="ScreenShots/about.png" alt="About Us Screenshot" width="100%">
+<strong>About US</strong>
+</td>
+</tr>
+  <tr>
+    <td align="center" style="padding: 10px;">
+<img src="ScreenShots/category.png" alt="Category Screenshot" width="100%">
+<strong>Category</strong>
+</td>
+<td align="center" style="padding: 10px;">
+<img src="ScreenShots/custom-category.png" alt="Custom-Category Screenshot" width="100%">
+<strong>Custom Category</strong>
+</td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px;">
+<img src="ScreenShots/single-post.png" alt="single-post Screenshot" width="100%">
+<strong>Single-post</strong>
+</td>
+    <td align="center" style="padding: 10px;">
+<img src="ScreenShots/contact.png" alt="Contact Screenshot" width="100%">
+<strong>Contact</strong>
+</td>
+  </tr>
+</table>
 
-> Replace image paths with your own screenshot files.
-
-### 🏠 Homepage  
-<img src="path/to/screenshot-home.png" alt="Homepage Screenshot" width="600">
-
-### 📁 Single Project Layout (CPT)  
-<img src="path/to/screenshot-project.png" alt="Project Screenshot" width="600">
-
-### 📰 Blog Feed  
-<img src="path/to/screenshot-blog.png" alt="Blog Screenshot" width="600">
 
 ---
 
